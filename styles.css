@@ -1,0 +1,103 @@
+/* Header styles */
+header {
+    background-color: #007BFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/billy-williams-8wz1Q4Q_XAg-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Main heading */
+#h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    padding-top: 5%;
+    font-size: 36px;
+}
+
+/* Main content section */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Picture box styling */
+#pic {
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: #007BFF;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Paragraph text */
+p {
+    font-size: 16px;
+    text-align: justify;
+    color: #333;
+}
+
+/* Text block with white font */
+#text {
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
